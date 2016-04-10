@@ -4,8 +4,9 @@ Repository for files used in building a Shiny application for the Developing Dat
 Shiny Application:
 
 Link of the running application: https://andrest149.shinyapps.io/proyecto/
-Documentation and instructions on the application page itself
-.R files of the app are in this repository, on the master branch: https://github.com/andrest149/Developing_Data_Products_project
-Slidify Presentation for the Application:
+Documentation and instructions on the application page itself .R files of the app are in this repository, on the master branch: https://github.com/andrest149/Developing_Data_Products_project
 
+To test that the code run, file prueba.R can be runned
+
+Slidify Presentation for the Application:
 Link of the live slides:
