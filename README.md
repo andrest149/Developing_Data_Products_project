@@ -5,7 +5,7 @@ Shiny Application:
 
 Link of the running application: https://andrest149.shinyapps.io/proyecto/
 Documentation and instructions on the application page itself
-.R files of the app are in this repository, on the master branch: https://github.com/ricardoscr/Developing-Data-Products
+.R files of the app are in this repository, on the master branch: https://github.com/andrest149/Developing_Data_Products_project
 Slidify Presentation for the Application:
 
 Link of the live slides:
