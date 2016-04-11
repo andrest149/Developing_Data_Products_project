@@ -1,0 +1,39 @@
+Shiny_App_Presentation
+========================================================
+author: Hector A. Tinoco
+date: April 10, 2016
+
+Motivation
+========================================================
+This shiny application is part of the Developing Data
+Products course from the Coursera Data Science 
+specialization from John Hopkins University Bloomberg 
+School of Public Health. 
+
+
+My Shiny App
+========================================================
+On my shiny app, the user selects four normal distribution function obtained from a set of experimental data. The selection can be compared with other set of data. To compare the values, a target was done with the a slidebar. 
+
+My shiny app can be found here:
+https://andrest149.shinyapps.io/proyecto/
+
+The source code is available at my github repo:
+https://github.com/andrest149/Developing_Data_Products_project
+
+Functionality
+========================================================
+The code for plotting is described below:
+
+
+```r
+ggplot(data = datos_1, aes(x=c(1:100,1:100,1:100,1:100),y=datos_1$values, group = type)) +
+  geom_line(aes(fill = type, color=type), size=.4)+
+  geom_hline(yintercept=1,color='red')+
+  geom_area(data=datos_2,aes(x=c(1:100),y=datos_2$values),alpha = 0.15,color='black')
+```
+
+Sample Result
+========================================================
+Here is a sample result from my shiny app:
+![image of shinyapp](shinyapppreview.jpg)
